@@ -46,6 +46,7 @@ Then we will check if this hypothesis is valid, according to the contribution of
 
 
 6. How would you productionize this model?
+
 Though my implementation uses matrix computation to avoid iterations, it is still computationally expensive. Next step, we need parallelize the knn solver so that the production model will have low-latency prediction capability.
 
 
